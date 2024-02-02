@@ -35,3 +35,32 @@
   }
 }
 
+.link-row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 33.3%;
+}
+
+.link-column {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: calc(100% - 44px);
+  margin-left: 22px;
+}
+
+@media (max-width: 1000px) {
+  .link-column {
+    flex-direction: column;
+    height: 150px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .link-row {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
