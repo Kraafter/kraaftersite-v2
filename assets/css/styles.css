@@ -1,3 +1,14 @@
+.gallerylist {
+  font-family: 'Alexandria';
+  color: rgb(242,242,255);
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.link {
+  color: aqua;
+}
+
 .dropdowns {
   font-family: 'Alexandria';
   color: rgb(242,242,255);
@@ -18,6 +29,7 @@
 @media (max-width: 650px) {
   .row {
     flex-direction: column;
+    width: 350;
   }
 }
 
@@ -34,6 +46,8 @@
     margin: 0;
   }
 }
+
+/* links.html */
 
 .link-row {
   display: flex;
@@ -61,6 +75,29 @@
   .link-row {
     width: 100%;
     margin-bottom: 10px;
+  }
+}
+
+.ofcontain {
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+#carousel-1 {
+  height: 500px;
+  width: 80%;
+}
+
+@media (max-width: 650px) {
+  #carousel-1 {
+    height: 280px;
   }
 }
 

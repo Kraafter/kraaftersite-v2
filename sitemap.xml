@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://kraafter.tech/blog/</loc>
+    </url>
+    <url>
+        <loc>https://kraafter.tech/gallery/art.html</loc>
+    </url>
+    <url>
+        <loc>https://kraafter.tech/gallery/</loc>
+    </url>
+    <url>
+        <loc>https://kraafter.tech/gallery/photography.html</loc>
+    </url>
+    <url>
+        <loc>https://kraafter.tech/contacts.html</loc>
+    </url>
+    <url>
         <loc>https://kraafter.tech/</loc>
     </url>
     <url>
         <loc>https://kraafter.tech/links.html</loc>
+    </url>
+    <url>
+        <loc>https://kraafter.tech/privacy.html</loc>
     </url>
 </urlset>

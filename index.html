@@ -32,24 +32,27 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Alexandria.css">
     <link rel="stylesheet" href="assets/css/Anton.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body style="color: rgb(40,40,40);background: url(&quot;assets/img/332fe2b5.png&quot;), #222222;background-size: 20%, auto;padding: 1px;">
-    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgb(122,122,122);"><img width="40" height="40" src="assets/img/PFC%20Logo%20thingy%20new%20transparent.png"></span><em style="font-family: Anton, sans-serif;">Kraafter</em></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark" style="width: 100%;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgb(122,122,122);"><img width="40" height="40" src="assets/img/PFC%20Logo%20thingy%20new%20transparent.png"></span><em style="font-family: Anton, sans-serif;">Kraafter</em></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-5">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="#" style="font-family: Alexandria, sans-serif;">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="font-family: Alexandria, sans-serif;">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog/index.html" style="font-family: Alexandria, sans-serif;">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/Kraafter?tab=repositories" style="font-family: Alexandria, sans-serif;" target="_blank">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery/index.html" style="font-family: Alexandria, sans-serif;">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="links.html" style="font-family: Alexandria, sans-serif;">Links</a></li>
-                </ul><a class="btn btn-primary ms-md-2" role="button" href="#" style="font-family: Alexandria, sans-serif;">Contact me!</a>
+                </ul><a class="btn btn-primary ms-md-2" role="button" href="contacts.html" style="font-family: Alexandria, sans-serif;">Contact me!</a>
             </div>
         </div>
     </nav>
     <div class="container" style="padding: 0;">
-        <div class="row" style="padding: 12px;height: auto;display: flex;">
+        <div class="row" style="padding: 19px;height: auto;display: flex;">
             <div class="col-sm-12 col-md-6 leftcol" style="background: rgba(50,50,50,0.85);"><img width="103" height="100" src="assets/img/pcfprotogen_uwu.png" style="background: rgba(106,106,106,0.29);border-radius: 10%;">
                 <p style="color: rgb(242,242,255);font-family: Alexandria, sans-serif;">Hi, Kraafter here&nbsp;👋</p><div class="dropdowns">
     <details>
@@ -73,6 +76,14 @@
           <li>Occupation: Student</li>
     </details>
     <details>
+      <summary>Programming Portofolio</summary>
+      <ul>
+        <li>Python</li>
+        <li>HTML CSS</li>
+        <li>C++</li>
+      </ul>
+    </details>
+    <details>
       <summary>Fursona</summary>
       <ul>
         <li>Name: GL1.V3 ("Glive")</li>
@@ -93,22 +104,33 @@
             <div class="col-md-6 rightcol" style="background: rgba(50,50,50,0.85);font-size: 13px;">
                 <h1 style="color: rgb(242,242,255);font-family: 'Alexandria';">Welcome</h1>
                 <p style="color: rgb(242,242,255);font-family: 'Alexandria';">This is a small website I set up where I'll put some of my arts, photographs, projects, etc.</p>
-                <p style="color: rgb(242,242,255);font-family: 'Alexandria';">You may find my creations in the gallery tab, as well as my social links in the links tab.</p>
+                <p style="color: rgb(242,242,255);font-family: 'Alexandria';">You may see my publications in the blog section, my art and photos in the gallery section, as well as my social links in the links section. My contacts are available in the contact me section.</p>
                 <p style="color: rgb(242,242,255);font-family: 'Alexandria';">You are currently viewing the v2 preview of Kraafter's website. Suggestions are welcome, contact me on Discord (kraaft) or by email (secondary.pfc@gmail.com).</p>
+                <div class="carousel slide" data-bs-ride="false" id="carousel-1">
+                    <div class="carousel-inner" style="height: 100%;border-radius: 10px;">
+                        <div class="carousel-item active" style="height: 100%;"><img class="w-100 d-block ofcontain" src="assets/img/carousel/_DSC4476_edited.jpg" alt="Slide Image" width="410" height="500"></div>
+                        <div class="carousel-item" style="height: 100%;"><img class="w-100 d-block ofcontain" alt="Slide Image" src="assets/img/carousel/_DSC4434_edited.jpg"></div>
+                        <div class="carousel-item" style="height: 100%;"><img class="w-100 d-block ofcontain" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="Slide Image"></div>
+                    </div>
+                    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+                    <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button></div>
+                </div>
             </div>
         </div>
     </div>
     <footer class="text-center bg-dark">
         <div class="container text-white py-4 py-lg-5">
             <ul class="list-inline">
-                <li class="list-inline-item"><a class="link-light" href="#">Contact Me</a></li>
-                <li class="list-inline-item"><a class="link-light" href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a class="link-light" href="contacts.html">Contact Me</a></li>
+                <li class="list-inline-item"><a class="link-light" href="privacy.html">Privacy Policy</a></li>
                 <li class="list-inline-item"><a class="link-light" href="https://github.com/Kraafter/kraaftersite-v2" target="_blank">Source</a></li>
             </ul>
             <p class="mb-0">Copyright ©2024 KRAAFTER</p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
 </body>
 
 </html>
