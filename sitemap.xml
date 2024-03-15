@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://kraafter.tech/blog/</loc>
+        <loc>https://kraafter.me/blog/</loc>
     </url>
     <url>
-        <loc>https://kraafter.tech/gallery/art.html</loc>
+        <loc>https://kraafter.me/gallery/art.html</loc>
     </url>
     <url>
-        <loc>https://kraafter.tech/gallery/</loc>
+        <loc>https://kraafter.me/gallery/</loc>
     </url>
     <url>
-        <loc>https://kraafter.tech/gallery/photography.html</loc>
+        <loc>https://kraafter.me/gallery/photography.html</loc>
     </url>
     <url>
-        <loc>https://kraafter.tech/contacts.html</loc>
+        <loc>https://kraafter.me/contacts.html</loc>
     </url>
     <url>
-        <loc>https://kraafter.tech/</loc>
+        <loc>https://kraafter.me/</loc>
     </url>
     <url>
-        <loc>https://kraafter.tech/links.html</loc>
+        <loc>https://kraafter.me/links.html</loc>
     </url>
     <url>
-        <loc>https://kraafter.tech/privacy.html</loc>
+        <loc>https://kraafter.me/privacy.html</loc>
     </url>
 </urlset>
